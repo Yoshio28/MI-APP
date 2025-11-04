@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>Lista de Usuarios</title>
+</head>
+
+<body>
+    <h1>Usuarios</h1>
+    <ul>
+        <% usuarios.forEach(function(usuario) { %>
+            <li>
+                <%= usuario.nombre %>
+            </li>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
