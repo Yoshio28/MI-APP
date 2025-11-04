@@ -6,6 +6,6 @@ app.set("view engine", "ejs");
 
 app.get("/", usuarioController.mostrarUsuarios);
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log("Servidor escuchando en puerto 3000");
 });
